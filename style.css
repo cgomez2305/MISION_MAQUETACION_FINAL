@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Open+Sans&family=Poppins:wght@400;600&family=Raleway:wght@500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Epilogue', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+}
+header{
+    padding-block: 5px;
+    background-color: hsl(227, 65%, 16%);
+    display: flex;
+    gap: 40px;
+    width: 100%;
+    padding-inline: 150px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.menu{
+    width: 70%;
+    display: flex;
+    justify-content: end;
+    
+}
+.menu ul{
+    color: hsl(333, 100%, 43%);
+    text-transform: uppercase;
+    display: flex;
+    gap: 100px;
+    font-size: 20px;
+    font-weight: 700;
+    align-items: center;
+    
+}
+.menu ul li{
+    color: hsl(333, 100%, 43%);
+}
+.menu ul li:hover{
+    color: white;
+}
+.logo{
+    width: 30%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    color: white;
+    gap: 10px;
+}
+.logo p{
+    font-size: 20px;
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+.container-inicio{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.903), rgba(0, 0, 0, 0.834)),url(asset/background__welcome.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-inicio h1{
+    font-size: 140px;
+    text-align: center;
+    padding-inline: 500px;
+    color: white;
+}
+.container-inicio a{
+    display: block;
+    padding-block: 15px;
+    padding-inline: 70px;
+    border-radius: 40px;
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: hsl(333, 100%, 43%);
+    color: white;
+}
+.container-inicio a:hover{
+    border: solid 2px hsl(333, 100%, 43%);
+    background-color: white;
+    color: hsl(333, 100%, 43%);
+}
+
+.container-acerca{
+    background-color: hsl(0, 8%, 91%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+}
+.box-acerca{
+    width: 30%;
+}
+.box-acerca img{
+    width: 100%;
+}
+
+.box-1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: hsl(0, 1%, 22%);
+    text-align: right;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.boton-acerca{
+    padding-left: 50px;
+    display: flex;
+    padding-top: 150px;
+    justify-content: left;
+}
+.boton-acerca a{
+    padding-block: 15px;
+    padding-inline: 70px;
+    border-radius: 40px;
+    font-size: 18px;
+    font-style: normal;
+    text-transform: uppercase;
+    background-color: hsl(333, 100%, 43%);
+    color: white;
+    font-weight: 700;
+}
+.boton-acerca a:hover{
+    border: solid 2px hsl(333, 100%, 43%);
+    background-color: white;
+    color: hsl(333, 100%, 43%);
+}
+.nombre {
+    text-align: right;
+}
+
+
+.container-servicios{
+    width: 100%;
+    height: 100vh;
+}
+.container-servicios-1{
+    padding-top: 150px;
+    display: flex;
+    gap: 40px;
+    text-align: center;
+    padding-inline: 150px;
+
+}
+.container-servicios-1 p{
+    padding-bottom: 100px;
+    font-style: italic;
+    font-size: 20px;
+    color: hsl(0, 1%, 22%);
+}
+.container-servicios h2{
+    padding-top: 20PX;
+    text-align: center;
+    text-decoration-line:overline underline;
+    text-decoration-color: hsl(333, 100%, 43%);
+}
+.servicios-1{
+    width: 33%;
+}
+.servicios-1 svg{
+    fill: hsl(333, 100%, 43%);
+}
+.servicios-1 h4{
+    font-size: 18px;
+}
+
+.container-portafolio{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+    flex-direction: column;
+}
+.container-portafolio h2{
+    text-align: center;
+    padding-bottom: 150px;
+    text-decoration-line:overline underline;
+    text-decoration-color: hsl(333, 100%, 43%);
+}
+.portafolio{
+    display: flex;
+    justify-content: center;
+
+}
+.img{
+    width: 300px;
+    height: 400px;
+}
+.img1{
+    background-image: url(/asset/portfolio-1.jpg);
+    background-size: cover;
+}
+.img2{
+    background-image: url(/asset/portfolio-2.jpg);
+    background-size: cover;
+}
+.img3{
+    background-image: url(/asset/portfolio-3.jpg);
+    background-size: cover;
+}
+.img4{
+    background-image: url(/asset/portfolio-4.jpg);
+    background-size: cover;
+}
+.img5{
+    background-image: url(/asset/portfolio-5.jpg);
+    background-size: cover;
+}
+.img6{
+    background-image: url(/asset/portfolio-6.jpg);
+    background-size: cover;
+}
+
+.container-reviews{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.734), rgba(255, 255, 255, 0.591)),url(/asset/hero-image-customers.jpg);
+}
+.container-comentario{
+    margin-block: 250px;
+    width: 700px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-comentario img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+
+.profile{
+    display: flex;
+    margin-top: -20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding-inline: 35px;
+    text-align: center;
+}
+.profile h3{
+    color: hsl(333, 100%, 43%);
+    font-size: 20px;
+}
+.caja-comentario{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.profile h4{
+    font-size: 50px;
+}
+
+
+.w3-blue{
+    padding: 12px;
+}
+.w3-progressbar{
+    background-color: hsl(0, 1%, 50%);
+}
+
+.w3-progress-container{
+    background-color: hsl(0, 1%, 22%);
+}
+
+.final{
+    text-align: right;
+    font-style: italic;
+}
+
+.inicio{
+    padding-top: 15px;
+    margin-bottom: -15px;
+    text-align: left;
+    font-style: italic;
+}
+
+
+.contenido{
+    text-align: center;
+    background-color: hsla(333, 100%, 43%, 0.54);
+    height: 0;
+    width: 100%;
+    padding: 10px;
+    visibility: hidden;
+    color: white;
+}
+.contenido h4{
+    padding-top: 10px;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.border{
+    height: 100%;
+    border: solid 2px white;
+    display: none;
+}
+
+.img:hover .contenido{
+    height: 100%;
+    visibility: visible;
+    transition: all 0.4s ease-in; 
+}
+.img:hover .border{
+    display: block;
+}
+
+
+.container-contacto{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-services{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-inline: 40px;
+    padding-top: 20px;
+    gap: 20px;
+}
+.box-services-1{
+    width: 25%;
+    border-radius: 20px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.287);
+    padding: 10px;
+}
+.box-services-1 h4{
+    padding-top: 10px;
+}
+
+.formulario{
+    padding: 10px;
+    margin-top: 30px;
+    display: grid;
+    width: 900px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.287);
+}
+
+.inputs{
+    padding-block: 10px;
+    display: flex;
+    width: 100%;
+    gap: 5px;
+}
+.inputs input{
+    width: 100%;
+    font-size: 18px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+form textarea{
+    width: 100%;
+}
+
+.boton-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boton-form a{
+    margin-top: -20px;
+    padding-block: 15px;
+    padding-inline: 60px;
+    border-radius: 40px;
+    font-size: 18px;
+    font-style: normal;
+    text-transform: uppercase;
+    background-color: hsl(333, 100%, 43%);
+    color: white;
+    font-weight: 700;
+}
+.boton-form a:hover{
+    border: solid 2px hsl(333, 100%, 43%);
+    background-color: white;
+    color: hsl(333, 100%, 43%);
+}
+.titulo{
+    margin-top: 10px;
+    border: solid 2px hsl(333, 100%, 43%);
+    text-align: center;
+    border-right: 0;
+    border-left: 0;
+    padding-block: 5px;
+}
+.titulo1 h2{
+    text-align: center;
+    text-decoration-line:overline underline;
+    text-decoration-color: hsl(333, 100%, 43%);
+}
+footer{
+    background-color: var(--blue);
+    color: var(--white);
+    text-align: center;
+    font-weight: 700;
+    border-radius: 20px;
+}
